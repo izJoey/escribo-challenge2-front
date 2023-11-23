@@ -8,7 +8,7 @@ Projeto feito em React ele usa as seguintes rotas da API:
 
 - /auth/register para registrar um novo usuário
 - /auth/login para fazer login em um usuário existente
-- /auth/users para listar todos os usuários
+- /users para listar todos os usuários
 
 **Instruções de uso:**
 ====
