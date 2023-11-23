@@ -1,13 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
-import { Router } from "./router";
+import { Router } from "./Router";
 
-ReactDOM.render(
-  <BrowserRouter>
-    <Router />
-  </BrowserRouter>,
-  document.getElementById("root")
-);
+function App() {
+  return (
+    <>
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
+    </>
+  );
+}
 
 export default App;
