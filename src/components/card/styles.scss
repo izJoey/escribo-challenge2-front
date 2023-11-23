@@ -1,0 +1,66 @@
+.container-card {
+  height: 10rem;
+  width: 12rem;
+  padding: 1rem;
+  margin: 2rem;
+  border: 2px #a3d7ff solid;
+  border-radius: 5px;
+  background: url(../../assets/bg.png);
+  color: #121212;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  p {
+    margin: 0px;
+    font-size: 14px;
+    margin-left: 0.25rem;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    svg {
+      cursor: pointer;
+    }
+  }
+
+  .email {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+  }
+
+  .tel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+
+    p {
+      font-size: 12px;
+    }
+    div {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  .date {
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 2rem;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}

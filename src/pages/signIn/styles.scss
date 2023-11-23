@@ -1,0 +1,110 @@
+.container-login {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .inner-conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    padding: 2rem;
+    width: 56rem;
+    height: 70%;
+    background-color: #1b9dff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    img {
+      height: 335px;
+    }
+    .login-container {
+      padding: 1rem;
+      border-radius: 30px;
+      background-color: #fff;
+      width: 16rem;
+      height: 22rem;
+
+      form {
+        margin-top: 1rem;
+        .input-wrap {
+          height: 2.5rem;
+          background-color: #1b9dff;
+          color: #757575;
+          margin-bottom: 2rem;
+          background-color: transparent;
+          transition: all 0.5s;
+
+          &:focus-within {
+            color: #1b9dff;
+            transition: all 0.5s;
+          }
+
+          span {
+            margin-left: 5px;
+          }
+
+          input {
+            width: 90%;
+            height: 1.5rem;
+            background-color: transparent;
+            border: 0;
+            padding: 0.5rem;
+            border: 0.063rem solid gray;
+            border-radius: 10px;
+          }
+        }
+
+        .button-wrap {
+          margin-top: 3rem;
+          display: flex;
+          justify-content: center;
+
+          button {
+            padding: 5px;
+            height: 2rem;
+            width: 5rem;
+            border-radius: 5px;
+            background-color: white;
+            border: 1px #d5d5d5 solid;
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            transition: all 0.3s;
+            cursor: pointer;
+
+            &:hover {
+              color: white;
+              background-color: #1b9dff;
+              border: 1px #188de5 solid;
+            }
+          }
+        }
+      }
+
+      .error-message {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+      }
+
+      .signUp {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: small;
+        p {
+          margin: 0px;
+        }
+        a {
+          color: #757575;
+          text-decoration: none;
+          &:hover {
+            color: #515151;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
