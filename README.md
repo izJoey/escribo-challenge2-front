@@ -14,6 +14,7 @@ Repo da API
 [Link](https://github.com/izJoey/users-api-rest).
 
 _A API entra em inativade depois de um tempo sem uso, precisa aguardar alguns segundos para ficar ativa novamente._
+_Algumas informações estão sendo enviadas para o console via console.log() para testes._
 
 **Instruções de uso:**
 ====
