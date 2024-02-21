@@ -1,5 +1,5 @@
 import "./styles.scss";
-import img from "../../assets/tablet.png";
+import reactlogo from "../../assets/React-Symbol.png";
 import { useState } from "react";
 import { useEffect } from "react";
 import api from "../../services/api";
@@ -51,11 +51,11 @@ export function SignUp() {
         setMsgAlert("Registre o seu endereço de e-mail para prosseguir.");
       } else if (validateSpecialCharacter("email", email)) {
         setMsgAlert(
-          "Existem acentos, símbolos ou espaços não permitidos no e-mail. Por favor, remova-os."
+          "Existem acentos, símbolos ou espaços não permitidos no e-mail. Por favor, remova-os.",
         );
       } else {
         setMsgAlert(
-          'Insira um formato válido de e-mail. "Exemplo: nome@email.com".'
+          'Insira um formato válido de e-mail. "Exemplo: nome@email.com".',
         );
         setTimeout(() => {
           setAlertEmail(false);
@@ -67,7 +67,7 @@ export function SignUp() {
     } else if (validateSpecialCharacter("email", email)) {
       setAlertEmail(true);
       setMsgAlert(
-        "Existem acentos, símbolos ou espaços não permitidos no e-mail. Por favor, remova-os."
+        "Existem acentos, símbolos ou espaços não permitidos no e-mail. Por favor, remova-os.",
       );
       setTimeout(() => {
         setAlertEmail(false);
@@ -153,7 +153,7 @@ export function SignUp() {
     <>
       <div className="container">
         <div className="inner-conteiner">
-          <img src={img} alt="" />
+          <img src={reactlogo} alt="" />
           <div className="login-container">
             <h3>Cadastro</h3>
             <hr />

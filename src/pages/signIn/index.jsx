@@ -1,5 +1,5 @@
 import "./styles.scss";
-import img from "../../assets/tablet.png";
+import reactlogo from "../../assets/React-Symbol.png";
 import { useState } from "react";
 import api from "../../services/api";
 import { useNavigate } from "react-router-dom";
@@ -11,7 +11,7 @@ export function SignIn() {
   const [pass, setPass] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const navigate = useNavigate();
-  const { setUser } = useContext(UserContext); // Use o UserContext para obter a função setUser
+  const { setUser } = useContext(UserContext);
 
   async function handleLogin(e) {
     e.preventDefault();
@@ -47,7 +47,7 @@ export function SignIn() {
     <>
       <div className="container-login">
         <div className="inner-conteiner">
-          <img src={img} alt="" />
+          <img src={reactlogo} alt="" />
           <div className="login-container">
             <h3>Login</h3>
             <hr />
