@@ -10,6 +10,9 @@ Projeto feito em React ele usa as seguintes rotas da API:
 - /auth/login para fazer login em um usuário existente
 - /users para listar todos os usuários
 
+Repo da API
+[Link](https://github.com/izJoey/users-api-rest).
+
 **Instruções de uso:**
 ====
 
