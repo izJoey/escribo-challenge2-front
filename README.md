@@ -13,6 +13,8 @@ Projeto feito em React ele usa as seguintes rotas da API:
 Repo da API
 [Link](https://github.com/izJoey/users-api-rest).
 
+_A API entra em inativade depois de um tempo sem uso, precisa aguardar alguns segundos para ficar ativa novamente._
+
 **Instruções de uso:**
 ====
 
